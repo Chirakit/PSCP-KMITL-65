@@ -1,0 +1,25 @@
+"""BMI"""
+def info_1():
+    """input info"""
+    name_1 = input()
+    weigh_1 = float(input())
+    heigh_1 = float(input())
+    name_2 = input()
+    weigh_2 = float(input())
+    heigh_2 = float(input())
+    name_3 = input()
+    weigh_3 = float(input())
+    heigh_3 = float(input())
+    name_4 = input()
+    weigh_4 = float(input())
+    heigh_4 = float(input())
+    name_5 = input()
+    weigh_5 = float(input())
+    heigh_5 = float(input())
+    print("%s's  BMI = %.2f"%(name_1, weigh_1/((heigh_1/100)**2)))
+    print("%s's  BMI = %.2f"%(name_2, weigh_2/((heigh_2/100)**2)))
+    print("%s's  BMI = %.2f"%(name_3, weigh_3/((heigh_3/100)**2)))
+    print("%s's  BMI = %.2f"%(name_4, weigh_4/((heigh_4/100)**2)))
+    print("%s's  BMI = %.2f"%(name_5, weigh_5/((heigh_5/100)**2)))
+
+info_1()
